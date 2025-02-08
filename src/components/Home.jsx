@@ -1,6 +1,7 @@
 import React from "react";
 import HeroImage from "../assets/heroImage.png";
 import { MdKeyboardArrowRight } from "react-icons/md";
+import { Link } from "react-scroll";
 
 const Home = () => {
   return (
@@ -22,7 +23,10 @@ const Home = () => {
             optimizing web applications using React, Node.js, and Django.
           </p>
           <div>
-            <button
+            <Link
+              to="projects"
+              smooth
+              duration={500}
               className="group text-white w-fit px-6 py-3 my-2
             flex items-center rounded-md bg-gradient-to-r from-cyan-500
             to-blue-500 cursor-pointer"
@@ -31,7 +35,7 @@ const Home = () => {
               <span className="group-hover:rotate-90 duration-300">
                 <MdKeyboardArrowRight size={25} className="ml-1" />
               </span>
-            </button>
+            </Link>
           </div>
         </div>
 

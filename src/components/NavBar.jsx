@@ -17,7 +17,9 @@ const NavBar = () => {
     h-20 px-4 text-white bg-black fixed"
     >
       <div>
-        <h1 className="text-5xl font-signature ml-2">Daniel</h1>
+        <Link to="home" smooth duration={500}>
+          <h1 className="text-5xl font-signature ml-2">Daniel</h1>
+        </Link>
       </div>
 
       <ul className="hidden md:flex">
@@ -51,7 +53,14 @@ const NavBar = () => {
               className="x-4 cursor-pointer capitalize py-6
             text-4xl"
             >
-              {link}
+              <Link
+                onClick={() => setNav(!nav)}
+                to={link}
+                smooth
+                duration={500}
+              >
+                {link}
+              </Link>
             </li>
           ))}
         </ul>

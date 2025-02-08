@@ -3,11 +3,11 @@ import React from "react";
 const ContactForm = () => {
   return (
     <div
+      name="contact"
       className="w-full h-[44%] bg-gradient-to-b from-black to-gray-800
     p-4 text-white pt-[50%] "
     >
       <div
-        name="contact"
         className="flex flex-col p-4 justify-center max-w-screen-lg
       mx-auto h-full"
       >
