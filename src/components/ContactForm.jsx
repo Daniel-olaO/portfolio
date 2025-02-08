@@ -29,6 +29,7 @@ const ContactForm = () => {
               name="name"
               placeholder="e.g. John Doe"
               className="p-2 bg-transparent border-2 rounded-md text-white focus:outline-none"
+              required
             />
 
             <input
@@ -36,6 +37,7 @@ const ContactForm = () => {
               name="email"
               placeholder="e.g. john.doe@example.com"
               className="my-4 p-2 bg-transparent border-2 rounded-md text-white focus:outline-none"
+              required
             />
 
             <textarea
@@ -43,6 +45,7 @@ const ContactForm = () => {
               rows="10"
               placeholder="Your message here"
               className="p-2 bg-transparent border-2 rounded-md text-white focus:outline-none"
+              required
             ></textarea>
 
             <button
