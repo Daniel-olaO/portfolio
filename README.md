@@ -42,4 +42,4 @@ npm start
 
 ## Demo
 
-You can view the live demo [here](https://67a6ac2a2e877632527e9841--symphonious-starlight-178ed9.netlify.app/)
+You can view the live demo [here](https://symphonious-starlight-178ed9.netlify.app/)
